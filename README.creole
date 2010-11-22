@@ -1,0 +1,4 @@
+This is an emacs interface to pastebin programs.
+
+pastebins are programs that can be sent text over the WWW as a form of
+collabarative sharing.
