@@ -2,3 +2,31 @@ This is an emacs interface to pastebin programs.
 
 pastebins are programs that can be sent text over the WWW as a form of
 collabarative sharing.
+
+== API ==
+
+=== pastebin (START END &OPTIONAL URL) ===
+
+An interface to the pastebin code snippet www service.
+
+See pastebin.com for more information about pastebin.
+
+Called interactively pastebin uses the current region for
+preference for sending... if the mark is NOT set then the entire
+buffer is sent.
+
+Argument START is the start of region.
+Argument END is the end of region.
+
+If PREFIX is used pastebin prompts for a prefix to be used as the
+virtual host to use.  For example use [[emacs]] for [[emacs.pastebin.com]].
+
+
+=== pastebin-buffer (&OPTIONAL URL) ===
+
+Send the whole buffer to pastebin.com.
+Optional argument PREFIX will request the virtual host to use,
+{{{
+ eg:[[emacs]] for [[emacs.pastebin.com]].
+
+
