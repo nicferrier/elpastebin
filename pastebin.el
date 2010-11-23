@@ -49,7 +49,7 @@
   )
 
 (defcustom pastebin-domain-versions '(("pastebin.com" "/api_public.php")
-                                      ("pastebin.woome.com" "/pastebin.php"))
+                                      ("pastebin.example.com" "/pastebin.php"))
   "The version of pastebin that is supported by domains that you use.
 
 As Pastebin changes versions they sometimes change the path used. 
