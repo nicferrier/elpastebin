@@ -26,7 +26,8 @@ virtual host to use.  For example use [[emacs]] for [[emacs.pastebin.com]].
 
 Send the whole buffer to pastebin.com.
 Optional argument PREFIX will request the virtual host to use,
+
 {{{
  eg:[[emacs]] for [[emacs.pastebin.com]].
 
-
+}}}
